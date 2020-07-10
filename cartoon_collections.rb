@@ -29,8 +29,8 @@ end
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
  
- str = 
- str
+ planeteer_calls.select 
+ 
   
     
     
