@@ -29,7 +29,7 @@ end
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
  num = 0 
-valid_calls[num].find {planeteer_calls}
+planeteer_calls.find {valid_calls[num]}
 num += 1
 
   
