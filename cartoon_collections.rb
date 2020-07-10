@@ -30,6 +30,7 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
  
  str = valid_calls.find
+ str
   
     
     
