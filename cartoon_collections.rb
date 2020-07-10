@@ -29,8 +29,10 @@ end
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
  count = 0
+ while count < valid_calls.length do
  planeteer_calls.find valid_calls[count]
  count+= 1
+ end
 
   
     
