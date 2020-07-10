@@ -31,10 +31,10 @@ def find_valid_calls(planeteer_calls)
  count = 0
  while count < valid_calls.length do
  planeteer_calls.find {valid_calls[count]}
- 
+ count+= 1
  end
 
-  count+= 1
+  
     
     
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
