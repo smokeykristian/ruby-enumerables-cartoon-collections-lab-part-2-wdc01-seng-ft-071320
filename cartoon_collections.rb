@@ -33,6 +33,7 @@ def find_valid_calls(planeteer_calls)
  planeteer_calls.find {valid_calls[count]}
  count+= 1
  end
+ 
 
   
     
